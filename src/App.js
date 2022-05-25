@@ -1,5 +1,5 @@
-import React from "react";
 import Greet from "./components/Greet";
+import ParrafoRed from './components/Parrafo'
 
 const name = prompt("What is your name? ")
 
@@ -9,6 +9,8 @@ function App() {
       <Greet 
         name={name}
       />
+      <ParrafoRed />
+
     </div>);
 }
 
