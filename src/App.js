@@ -1,5 +1,6 @@
 import Greet from "./components/Greet";
 import ParrafoRed from './components/Parrafo'
+import BlueParagraph from "./components/BluePraragraph";
 
 const name = prompt("What is your name? ")
 
@@ -10,6 +11,7 @@ function App() {
         name={name}
       />
       <ParrafoRed />
+      <BlueParagraph />
 
     </div>);
 }
